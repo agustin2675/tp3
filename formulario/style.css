@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.container{
+    width: 100%;
+    background-color: #D0D0D0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+}
+
+.form-content{
+    width: 100%;
+    max-width: 450px;
+    background-color: #2C2F35;
+    padding: 50px 60px 50px;
+    text-align: center;
+    border-radius: 30px;
+    margin: 30px;
+}
+
+.form-content h1{
+    font-size: 30px;
+    margin-bottom: 40px;
+    color: #FFFFFF;
+}
+
+.input-field{
+    background-color: #515966;
+    margin: 15px 0;
+    border-radius: 3px;
+    padding: 10px;
+}
+
+input{
+    width: 100%;
+    background: transparent;
+    border: 0;
+    outline: none;
+    color: white;
+}
+
+input::placeholder{
+    color: white;
+}
+
+.boton{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.boton button{
+    font-size: 20px;
+    padding: 8px;
+    margin-top: 15px;
+    border-radius: 5px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+}
+
+#error{
+    color: red;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+#valido{
+    color: green;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+#errorMaterias{
+    color: red;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+#validoMaterias{
+    color: green;
+    margin-top: 30px;
+    font-size: 20px;
+}
+#promedio{
+    color: white;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.materiaNota{
+    display: flex;
+    justify-content: space-around;
+}
+

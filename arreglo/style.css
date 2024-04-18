@@ -1,0 +1,44 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #dddddd;
+}
+
+h1{
+    font-size: 25px;
+}
+
+li{
+    text-decoration: none;
+
+}
+
+.content{
+    max-width: 1000px;
+    margin: 0 auto;
+    
+}
+
+.seccion{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    align-items:flex-start;
+    background-color:#9c9c9c;
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+ul{
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 90%;
+    padding: 20px;
+}
+
+li{
+    margin: 15px;
+    list-style: none;
+    
+}
+

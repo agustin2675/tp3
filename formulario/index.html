@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fromulario</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form-content">
+            <h1 id="title">Formulario</h1>
+
+            <form id="formularioDatos" >
+                <div class="input-group">
+                    <div class="input-field">
+                        <input id="nombre" type="text" placeholder="Nombre">
+                    </div>
+                    <div class="input-field">
+                        <input id="apellido" type="text" placeholder="Apellido">
+                    </div>
+                    <div class="input-field">
+                        <input id="legajo" type="text" placeholder="Legajo">
+                    </div>
+                    <div class="input-field">
+                        <input id="mail" type="email" placeholder="Mail">
+                    </div>
+                </div>
+                <div class="boton">
+                    <button id="boton" type="submit">Enviar</button>
+                </div>
+            </form>
+            <div id="valido"></div>
+            <div id="error"></div>
+        </div>
+
+        <div class="form-content">
+            <h1 id="title">Materias</h1>
+
+            <form id="formularioMaterias" >
+                <div class="input-group">
+                    <div class="materiaNota">
+                        <div class="input-field">
+                            <input class="materia" type="text" placeholder="Nombre Materia">
+                        </div>
+                        <div class="input-field">
+                            <input id="nota1" class="nota" type="number" max="10" min="1" placeholder="Nota">
+                        </div>
+                    </div>
+                    <div class="materiaNota">
+                        <div class="input-field">
+                            <input class="materia" type="text" placeholder="Nombre Materia">
+                        </div>
+                        <div class="input-field">
+                            <input id="nota2" class="nota" type="number" max="10" min="1" placeholder="Nota">
+                        </div>
+                    </div>
+                    <div class="materiaNota">
+                        <div class="input-field">
+                            <input class="materia" type="text" placeholder="Nombre Materia">
+                        </div>
+                        <div class="input-field">
+                            <input id="nota3" class="nota" type="number" max="10" min="1" placeholder="Nota">
+                        </div>
+                    </div>
+                    <div class="materiaNota">
+                        <div class="input-field">
+                            <input class="materia" type="text" placeholder="Nombre Materia">
+                        </div>
+                        <div class="input-field">
+                            <input id="nota4" class="nota" type="number" max="10" min="1" placeholder="Nota">
+                        </div>
+                    </div>
+                    <div class="materiaNota">
+                        <div class="input-field">
+                            <input class="materia" type="text" placeholder="Nombre Materia">
+                        </div>
+                        <div class="input-field">
+                            <input id="nota5" class="nota" type="number" max="10" min="1" placeholder="Nota">
+                        </div>
+                    </div>
+                </div>
+                <div class="boton">
+                    <button id="botonPromedio" type="submit">Calcular</button>
+                </div>
+            </form>
+            <div id="validoMaterias"></div>
+            <div id="errorMaterias"></div>
+            <div id="promedio"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
